@@ -1,2 +1,0 @@
-# jacktech
-Jack Tech Website
