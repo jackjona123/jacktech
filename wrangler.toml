@@ -1,0 +1,12 @@
+account_id = "f6db10971f58fd9d4f6f9f646d8b21df"
+name = "jacktech"
+type = "webpack"
+workers_dev = true
+site = { bucket = "./public" }
+
+[env.production]
+# The ID of the domain to deploying to
+zone_id = "7ef11f19e867f130587e031448057257"
+
+# The route pattern your Workers application will be served at
+route = "jacktech.cf/*"
